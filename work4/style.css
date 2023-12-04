@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 150px;
+    margin: 100px auto;
+}
+
+.container {
+    background: white;
+}
+
+#eight {
+    fill: none;
+    stroke: black;
+    stroke-width: 8;
+    stroke-dasharray: 202.75, 54.25;
+    stroke-dashoffset: 27px;
+}
+
+#svg:hover #eight {
+    fill: #dedede;
+    animation: move 1s infinite linear;
+}
+
+@keyframes move {
+    0% {
+        stroke-dashoffset: 27px;
+    }
+
+    100% {
+        stroke-dashoffset: 257px;
+    }
+}
