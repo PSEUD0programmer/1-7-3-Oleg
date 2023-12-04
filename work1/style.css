@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: lightblue;
+    margin: 0 auto;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div {
+    background: white;
+    margin: 5px;
+}
+
+svg{
+    width: 500px;
+    height: 400px;
+}
