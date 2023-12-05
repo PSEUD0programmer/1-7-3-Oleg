@@ -156,7 +156,7 @@ body {
     transform-origin: 30% 100%;
 
     animation-name: leaf-even-grow;
-    animation-duration: 15s;
+    animation-duration: 5s;
     animation-fill-mode: both;
 }
 
@@ -164,46 +164,56 @@ body {
     transform-origin: 0% 100%;
 
     animation-name: leaf-odd-grow;
-    animation-duration: 15s;
+    animation-duration: 5s;
     animation-fill-mode: both;
 }
 
 .leaf:nth-child(1) {
     top: 5px;
+    animation-delay: 3s;
 }
 
 .leaf:nth-child(2) {
     top: 15px;
+    animation-delay: 3.5s;
 }
 
 .leaf:nth-child(3) {
     top: 30px;
+    animation-delay: 4s;
 }
 
 .leaf:nth-child(4) {
     top: 45px;
+    animation-delay: 4.5s;
 }
 
 .leaf:nth-child(5) {
     top: 60px;
+    animation-delay: 5s;
 }
 
 .leaf:nth-child(6) {
     top: 75px;
+    animation-delay: 5.5s;
 }
 
 .leaf:nth-child(7) {
     top: 90px;
+    animation-delay: 6s;
 }
 
 .leaf:nth-child(8) {
     top: 105px;
+    animation-delay: 6.5s;
 }
 
 .leaf:nth-child(9) {
     top: 120px;
+    animation-delay: 7s;
 }
 
 .leaf:nth-child(10) {
     top: 135px;
+    animation-delay: 7.5s;
 }
